@@ -114,5 +114,3 @@ def newton(p_prev, tol, mx, fnc: Polynomial):
 
 print(bisect(fnc, 7, -4, 10**-4, 100))
 print(newton(-4, 10**-4, 100, Polynomial([-10, 0, 4, 1])))
-
-# b) Using the newton Raphson method
